@@ -16,6 +16,9 @@ public final class R {
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
     }
+    public static final class array {
+        public static final int times_array=0x7f050000;
+    }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1422,146 +1425,150 @@ containing a value of this type.
         public static final int zOrderOnTop=0x7f01003b;
     }
     public static final class bool {
-        public static final int abc_action_bar_embed_tabs=0x7f050000;
-        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f050001;
-        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f050002;
-        public static final int abc_config_actionMenuItemAllCaps=0x7f050003;
-        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f050004;
-        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f050005;
+        public static final int abc_action_bar_embed_tabs=0x7f060000;
+        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f060001;
+        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f060002;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f060003;
+        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f060004;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f060005;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f060048;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f060049;
-        public static final int abc_input_method_navigation_guard=0x7f060000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f06004a;
-        public static final int abc_primary_text_disable_only_material_light=0x7f06004b;
-        public static final int abc_primary_text_material_dark=0x7f06004c;
-        public static final int abc_primary_text_material_light=0x7f06004d;
-        public static final int abc_search_url_text=0x7f06004e;
-        public static final int abc_search_url_text_normal=0x7f060001;
-        public static final int abc_search_url_text_pressed=0x7f060002;
-        public static final int abc_search_url_text_selected=0x7f060003;
-        public static final int abc_secondary_text_material_dark=0x7f06004f;
-        public static final int abc_secondary_text_material_light=0x7f060050;
-        public static final int accent_material_dark=0x7f060004;
-        public static final int accent_material_light=0x7f060005;
-        public static final int background_floating_material_dark=0x7f060006;
-        public static final int background_floating_material_light=0x7f060007;
-        public static final int background_material_dark=0x7f060008;
-        public static final int background_material_light=0x7f060009;
-        public static final int bright_foreground_disabled_material_dark=0x7f06000a;
-        public static final int bright_foreground_disabled_material_light=0x7f06000b;
-        public static final int bright_foreground_inverse_material_dark=0x7f06000c;
-        public static final int bright_foreground_inverse_material_light=0x7f06000d;
-        public static final int bright_foreground_material_dark=0x7f06000e;
-        public static final int bright_foreground_material_light=0x7f06000f;
-        public static final int button_material_dark=0x7f060010;
-        public static final int button_material_light=0x7f060011;
-        public static final int common_action_bar_splitter=0x7f060012;
-        public static final int common_signin_btn_dark_text_default=0x7f060013;
-        public static final int common_signin_btn_dark_text_disabled=0x7f060014;
-        public static final int common_signin_btn_dark_text_focused=0x7f060015;
-        public static final int common_signin_btn_dark_text_pressed=0x7f060016;
-        public static final int common_signin_btn_default_background=0x7f060017;
-        public static final int common_signin_btn_light_text_default=0x7f060018;
-        public static final int common_signin_btn_light_text_disabled=0x7f060019;
-        public static final int common_signin_btn_light_text_focused=0x7f06001a;
-        public static final int common_signin_btn_light_text_pressed=0x7f06001b;
-        public static final int common_signin_btn_text_dark=0x7f060051;
-        public static final int common_signin_btn_text_light=0x7f060052;
-        public static final int dim_foreground_disabled_material_dark=0x7f06001c;
-        public static final int dim_foreground_disabled_material_light=0x7f06001d;
-        public static final int dim_foreground_material_dark=0x7f06001e;
-        public static final int dim_foreground_material_light=0x7f06001f;
-        public static final int highlighted_text_material_dark=0x7f060020;
-        public static final int highlighted_text_material_light=0x7f060021;
-        public static final int hint_foreground_material_dark=0x7f060022;
-        public static final int hint_foreground_material_light=0x7f060023;
-        public static final int link_text_material_dark=0x7f060024;
-        public static final int link_text_material_light=0x7f060025;
-        public static final int material_blue_grey_800=0x7f060026;
-        public static final int material_blue_grey_900=0x7f060027;
-        public static final int material_blue_grey_950=0x7f060028;
-        public static final int material_deep_teal_200=0x7f060029;
-        public static final int material_deep_teal_500=0x7f06002a;
-        public static final int primary_dark_material_dark=0x7f06002b;
-        public static final int primary_dark_material_light=0x7f06002c;
-        public static final int primary_material_dark=0x7f06002d;
-        public static final int primary_material_light=0x7f06002e;
-        public static final int primary_text_default_material_dark=0x7f06002f;
-        public static final int primary_text_default_material_light=0x7f060030;
-        public static final int primary_text_disabled_material_dark=0x7f060031;
-        public static final int primary_text_disabled_material_light=0x7f060032;
-        public static final int ripple_material_dark=0x7f060033;
-        public static final int ripple_material_light=0x7f060034;
-        public static final int secondary_text_default_material_dark=0x7f060035;
-        public static final int secondary_text_default_material_light=0x7f060036;
-        public static final int secondary_text_disabled_material_dark=0x7f060037;
-        public static final int secondary_text_disabled_material_light=0x7f060038;
-        public static final int switch_thumb_normal_material_dark=0x7f060039;
-        public static final int switch_thumb_normal_material_light=0x7f06003a;
-        public static final int wallet_bright_foreground_disabled_holo_light=0x7f06003b;
-        public static final int wallet_bright_foreground_holo_dark=0x7f06003c;
-        public static final int wallet_bright_foreground_holo_light=0x7f06003d;
-        public static final int wallet_dim_foreground_disabled_holo_dark=0x7f06003e;
-        public static final int wallet_dim_foreground_holo_dark=0x7f06003f;
-        public static final int wallet_dim_foreground_inverse_disabled_holo_dark=0x7f060040;
-        public static final int wallet_dim_foreground_inverse_holo_dark=0x7f060041;
-        public static final int wallet_highlighted_text_holo_dark=0x7f060042;
-        public static final int wallet_highlighted_text_holo_light=0x7f060043;
-        public static final int wallet_hint_foreground_holo_dark=0x7f060044;
-        public static final int wallet_hint_foreground_holo_light=0x7f060045;
-        public static final int wallet_holo_blue_light=0x7f060046;
-        public static final int wallet_link_text_light=0x7f060047;
-        public static final int wallet_primary_text_holo_light=0x7f060053;
-        public static final int wallet_secondary_text_holo_dark=0x7f060054;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f07004c;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f07004d;
+        public static final int abc_input_method_navigation_guard=0x7f070000;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f07004e;
+        public static final int abc_primary_text_disable_only_material_light=0x7f07004f;
+        public static final int abc_primary_text_material_dark=0x7f070050;
+        public static final int abc_primary_text_material_light=0x7f070051;
+        public static final int abc_search_url_text=0x7f070052;
+        public static final int abc_search_url_text_normal=0x7f070001;
+        public static final int abc_search_url_text_pressed=0x7f070002;
+        public static final int abc_search_url_text_selected=0x7f070003;
+        public static final int abc_secondary_text_material_dark=0x7f070053;
+        public static final int abc_secondary_text_material_light=0x7f070054;
+        public static final int accent_material_dark=0x7f070004;
+        public static final int accent_material_light=0x7f070005;
+        public static final int background_floating_material_dark=0x7f070006;
+        public static final int background_floating_material_light=0x7f070007;
+        public static final int background_material_dark=0x7f070008;
+        public static final int background_material_light=0x7f070009;
+        public static final int bright_foreground_disabled_material_dark=0x7f07000a;
+        public static final int bright_foreground_disabled_material_light=0x7f07000b;
+        public static final int bright_foreground_inverse_material_dark=0x7f07000c;
+        public static final int bright_foreground_inverse_material_light=0x7f07000d;
+        public static final int bright_foreground_material_dark=0x7f07000e;
+        public static final int bright_foreground_material_light=0x7f07000f;
+        public static final int button_material_dark=0x7f070010;
+        public static final int button_material_light=0x7f070011;
+        public static final int common_action_bar_splitter=0x7f070012;
+        public static final int common_signin_btn_dark_text_default=0x7f070013;
+        public static final int common_signin_btn_dark_text_disabled=0x7f070014;
+        public static final int common_signin_btn_dark_text_focused=0x7f070015;
+        public static final int common_signin_btn_dark_text_pressed=0x7f070016;
+        public static final int common_signin_btn_default_background=0x7f070017;
+        public static final int common_signin_btn_light_text_default=0x7f070018;
+        public static final int common_signin_btn_light_text_disabled=0x7f070019;
+        public static final int common_signin_btn_light_text_focused=0x7f07001a;
+        public static final int common_signin_btn_light_text_pressed=0x7f07001b;
+        public static final int common_signin_btn_text_dark=0x7f070055;
+        public static final int common_signin_btn_text_light=0x7f070056;
+        public static final int dim_foreground_disabled_material_dark=0x7f07001c;
+        public static final int dim_foreground_disabled_material_light=0x7f07001d;
+        public static final int dim_foreground_material_dark=0x7f07001e;
+        public static final int dim_foreground_material_light=0x7f07001f;
+        public static final int highlighted_text_material_dark=0x7f070020;
+        public static final int highlighted_text_material_light=0x7f070021;
+        public static final int hint_foreground_material_dark=0x7f070022;
+        public static final int hint_foreground_material_light=0x7f070023;
+        public static final int link_text_material_dark=0x7f070024;
+        public static final int link_text_material_light=0x7f070025;
+        public static final int material_blue_grey_800=0x7f070026;
+        public static final int material_blue_grey_900=0x7f070027;
+        public static final int material_blue_grey_950=0x7f070028;
+        public static final int material_deep_teal_200=0x7f070029;
+        public static final int material_deep_teal_500=0x7f07002a;
+        public static final int orange=0x7f07002b;
+        public static final int orange_dark=0x7f07002c;
+        public static final int orange_light=0x7f07002d;
+        public static final int orange_shadow=0x7f07002e;
+        public static final int primary_dark_material_dark=0x7f07002f;
+        public static final int primary_dark_material_light=0x7f070030;
+        public static final int primary_material_dark=0x7f070031;
+        public static final int primary_material_light=0x7f070032;
+        public static final int primary_text_default_material_dark=0x7f070033;
+        public static final int primary_text_default_material_light=0x7f070034;
+        public static final int primary_text_disabled_material_dark=0x7f070035;
+        public static final int primary_text_disabled_material_light=0x7f070036;
+        public static final int ripple_material_dark=0x7f070037;
+        public static final int ripple_material_light=0x7f070038;
+        public static final int secondary_text_default_material_dark=0x7f070039;
+        public static final int secondary_text_default_material_light=0x7f07003a;
+        public static final int secondary_text_disabled_material_dark=0x7f07003b;
+        public static final int secondary_text_disabled_material_light=0x7f07003c;
+        public static final int switch_thumb_normal_material_dark=0x7f07003d;
+        public static final int switch_thumb_normal_material_light=0x7f07003e;
+        public static final int wallet_bright_foreground_disabled_holo_light=0x7f07003f;
+        public static final int wallet_bright_foreground_holo_dark=0x7f070040;
+        public static final int wallet_bright_foreground_holo_light=0x7f070041;
+        public static final int wallet_dim_foreground_disabled_holo_dark=0x7f070042;
+        public static final int wallet_dim_foreground_holo_dark=0x7f070043;
+        public static final int wallet_dim_foreground_inverse_disabled_holo_dark=0x7f070044;
+        public static final int wallet_dim_foreground_inverse_holo_dark=0x7f070045;
+        public static final int wallet_highlighted_text_holo_dark=0x7f070046;
+        public static final int wallet_highlighted_text_holo_light=0x7f070047;
+        public static final int wallet_hint_foreground_holo_dark=0x7f070048;
+        public static final int wallet_hint_foreground_holo_light=0x7f070049;
+        public static final int wallet_holo_blue_light=0x7f07004a;
+        public static final int wallet_link_text_light=0x7f07004b;
+        public static final int wallet_primary_text_holo_light=0x7f070057;
+        public static final int wallet_secondary_text_holo_dark=0x7f070058;
     }
     public static final class dimen {
-        public static final int abc_action_bar_default_height_material=0x7f070000;
-        public static final int abc_action_bar_default_padding_material=0x7f070001;
-        public static final int abc_action_bar_icon_vertical_padding_material=0x7f070002;
-        public static final int abc_action_bar_progress_bar_size=0x7f070003;
-        public static final int abc_action_bar_stacked_max_height=0x7f070004;
-        public static final int abc_action_bar_stacked_tab_max_width=0x7f070005;
-        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f070006;
-        public static final int abc_action_bar_subtitle_top_margin_material=0x7f070007;
-        public static final int abc_action_button_min_height_material=0x7f070008;
-        public static final int abc_action_button_min_width_material=0x7f070009;
-        public static final int abc_action_button_min_width_overflow_material=0x7f07000a;
-        public static final int abc_config_prefDialogWidth=0x7f07000b;
-        public static final int abc_control_inset_material=0x7f07000c;
-        public static final int abc_control_padding_material=0x7f07000d;
-        public static final int abc_dropdownitem_icon_width=0x7f07000e;
-        public static final int abc_dropdownitem_text_padding_left=0x7f07000f;
-        public static final int abc_dropdownitem_text_padding_right=0x7f070010;
-        public static final int abc_panel_menu_list_width=0x7f070011;
-        public static final int abc_search_view_preferred_width=0x7f070012;
-        public static final int abc_search_view_text_min_width=0x7f070013;
-        public static final int abc_text_size_body_1_material=0x7f070014;
-        public static final int abc_text_size_body_2_material=0x7f070015;
-        public static final int abc_text_size_button_material=0x7f070016;
-        public static final int abc_text_size_caption_material=0x7f070017;
-        public static final int abc_text_size_display_1_material=0x7f070018;
-        public static final int abc_text_size_display_2_material=0x7f070019;
-        public static final int abc_text_size_display_3_material=0x7f07001a;
-        public static final int abc_text_size_display_4_material=0x7f07001b;
-        public static final int abc_text_size_headline_material=0x7f07001c;
-        public static final int abc_text_size_large_material=0x7f07001d;
-        public static final int abc_text_size_medium_material=0x7f07001e;
-        public static final int abc_text_size_menu_material=0x7f07001f;
-        public static final int abc_text_size_small_material=0x7f070020;
-        public static final int abc_text_size_subhead_material=0x7f070021;
-        public static final int abc_text_size_subtitle_material_toolbar=0x7f070022;
-        public static final int abc_text_size_title_material=0x7f070023;
-        public static final int abc_text_size_title_material_toolbar=0x7f070024;
-        public static final int activity_horizontal_margin=0x7f070025;
-        public static final int activity_vertical_margin=0x7f070026;
-        public static final int dialog_fixed_height_major=0x7f070027;
-        public static final int dialog_fixed_height_minor=0x7f070028;
-        public static final int dialog_fixed_width_major=0x7f070029;
-        public static final int dialog_fixed_width_minor=0x7f07002a;
-        public static final int disabled_alpha_material_dark=0x7f07002b;
-        public static final int disabled_alpha_material_light=0x7f07002c;
+        public static final int abc_action_bar_default_height_material=0x7f080000;
+        public static final int abc_action_bar_default_padding_material=0x7f080001;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f080002;
+        public static final int abc_action_bar_progress_bar_size=0x7f080003;
+        public static final int abc_action_bar_stacked_max_height=0x7f080004;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f080005;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f080006;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f080007;
+        public static final int abc_action_button_min_height_material=0x7f080008;
+        public static final int abc_action_button_min_width_material=0x7f080009;
+        public static final int abc_action_button_min_width_overflow_material=0x7f08000a;
+        public static final int abc_config_prefDialogWidth=0x7f08000b;
+        public static final int abc_control_inset_material=0x7f08000c;
+        public static final int abc_control_padding_material=0x7f08000d;
+        public static final int abc_dropdownitem_icon_width=0x7f08000e;
+        public static final int abc_dropdownitem_text_padding_left=0x7f08000f;
+        public static final int abc_dropdownitem_text_padding_right=0x7f080010;
+        public static final int abc_panel_menu_list_width=0x7f080011;
+        public static final int abc_search_view_preferred_width=0x7f080012;
+        public static final int abc_search_view_text_min_width=0x7f080013;
+        public static final int abc_text_size_body_1_material=0x7f080014;
+        public static final int abc_text_size_body_2_material=0x7f080015;
+        public static final int abc_text_size_button_material=0x7f080016;
+        public static final int abc_text_size_caption_material=0x7f080017;
+        public static final int abc_text_size_display_1_material=0x7f080018;
+        public static final int abc_text_size_display_2_material=0x7f080019;
+        public static final int abc_text_size_display_3_material=0x7f08001a;
+        public static final int abc_text_size_display_4_material=0x7f08001b;
+        public static final int abc_text_size_headline_material=0x7f08001c;
+        public static final int abc_text_size_large_material=0x7f08001d;
+        public static final int abc_text_size_medium_material=0x7f08001e;
+        public static final int abc_text_size_menu_material=0x7f08001f;
+        public static final int abc_text_size_small_material=0x7f080020;
+        public static final int abc_text_size_subhead_material=0x7f080021;
+        public static final int abc_text_size_subtitle_material_toolbar=0x7f080022;
+        public static final int abc_text_size_title_material=0x7f080023;
+        public static final int abc_text_size_title_material_toolbar=0x7f080024;
+        public static final int activity_horizontal_margin=0x7f080025;
+        public static final int activity_vertical_margin=0x7f080026;
+        public static final int dialog_fixed_height_major=0x7f080027;
+        public static final int dialog_fixed_height_minor=0x7f080028;
+        public static final int dialog_fixed_width_major=0x7f080029;
+        public static final int dialog_fixed_width_minor=0x7f08002a;
+        public static final int disabled_alpha_material_dark=0x7f08002b;
+        public static final int disabled_alpha_material_light=0x7f08002c;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_holo_dark=0x7f020000;
@@ -1615,154 +1622,213 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-        public static final int common_full_open_on_phone=0x7f020033;
-        public static final int common_ic_googleplayservices=0x7f020034;
-        public static final int common_signin_btn_icon_dark=0x7f020035;
-        public static final int common_signin_btn_icon_disabled_dark=0x7f020036;
-        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f020037;
-        public static final int common_signin_btn_icon_disabled_focus_light=0x7f020038;
-        public static final int common_signin_btn_icon_disabled_light=0x7f020039;
-        public static final int common_signin_btn_icon_focus_dark=0x7f02003a;
-        public static final int common_signin_btn_icon_focus_light=0x7f02003b;
-        public static final int common_signin_btn_icon_light=0x7f02003c;
-        public static final int common_signin_btn_icon_normal_dark=0x7f02003d;
-        public static final int common_signin_btn_icon_normal_light=0x7f02003e;
-        public static final int common_signin_btn_icon_pressed_dark=0x7f02003f;
-        public static final int common_signin_btn_icon_pressed_light=0x7f020040;
-        public static final int common_signin_btn_text_dark=0x7f020041;
-        public static final int common_signin_btn_text_disabled_dark=0x7f020042;
-        public static final int common_signin_btn_text_disabled_focus_dark=0x7f020043;
-        public static final int common_signin_btn_text_disabled_focus_light=0x7f020044;
-        public static final int common_signin_btn_text_disabled_light=0x7f020045;
-        public static final int common_signin_btn_text_focus_dark=0x7f020046;
-        public static final int common_signin_btn_text_focus_light=0x7f020047;
-        public static final int common_signin_btn_text_light=0x7f020048;
-        public static final int common_signin_btn_text_normal_dark=0x7f020049;
-        public static final int common_signin_btn_text_normal_light=0x7f02004a;
-        public static final int common_signin_btn_text_pressed_dark=0x7f02004b;
-        public static final int common_signin_btn_text_pressed_light=0x7f02004c;
-        public static final int ic_launcher=0x7f02004d;
-        public static final int ic_plusone_medium_off_client=0x7f02004e;
-        public static final int ic_plusone_small_off_client=0x7f02004f;
-        public static final int ic_plusone_standard_off_client=0x7f020050;
-        public static final int ic_plusone_tall_off_client=0x7f020051;
-        public static final int powered_by_google_dark=0x7f020052;
-        public static final int powered_by_google_light=0x7f020053;
+        public static final int actionbar_bg=0x7f020033;
+        public static final int bg=0x7f020034;
+        public static final int button_bg=0x7f020035;
+        public static final int button_bg_selected=0x7f020036;
+        public static final int button_selector=0x7f020037;
+        public static final int common_full_open_on_phone=0x7f020038;
+        public static final int common_ic_googleplayservices=0x7f020039;
+        public static final int common_signin_btn_icon_dark=0x7f02003a;
+        public static final int common_signin_btn_icon_disabled_dark=0x7f02003b;
+        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f02003c;
+        public static final int common_signin_btn_icon_disabled_focus_light=0x7f02003d;
+        public static final int common_signin_btn_icon_disabled_light=0x7f02003e;
+        public static final int common_signin_btn_icon_focus_dark=0x7f02003f;
+        public static final int common_signin_btn_icon_focus_light=0x7f020040;
+        public static final int common_signin_btn_icon_light=0x7f020041;
+        public static final int common_signin_btn_icon_normal_dark=0x7f020042;
+        public static final int common_signin_btn_icon_normal_light=0x7f020043;
+        public static final int common_signin_btn_icon_pressed_dark=0x7f020044;
+        public static final int common_signin_btn_icon_pressed_light=0x7f020045;
+        public static final int common_signin_btn_text_dark=0x7f020046;
+        public static final int common_signin_btn_text_disabled_dark=0x7f020047;
+        public static final int common_signin_btn_text_disabled_focus_dark=0x7f020048;
+        public static final int common_signin_btn_text_disabled_focus_light=0x7f020049;
+        public static final int common_signin_btn_text_disabled_light=0x7f02004a;
+        public static final int common_signin_btn_text_focus_dark=0x7f02004b;
+        public static final int common_signin_btn_text_focus_light=0x7f02004c;
+        public static final int common_signin_btn_text_light=0x7f02004d;
+        public static final int common_signin_btn_text_normal_dark=0x7f02004e;
+        public static final int common_signin_btn_text_normal_light=0x7f02004f;
+        public static final int common_signin_btn_text_pressed_dark=0x7f020050;
+        public static final int common_signin_btn_text_pressed_light=0x7f020051;
+        public static final int ic_launcher=0x7f020052;
+        public static final int ic_plusone_medium_off_client=0x7f020053;
+        public static final int ic_plusone_small_off_client=0x7f020054;
+        public static final int ic_plusone_standard_off_client=0x7f020055;
+        public static final int ic_plusone_tall_off_client=0x7f020056;
+        public static final int login_box=0x7f020057;
+        public static final int orange_crab=0x7f020058;
+        public static final int orange_jellyfish=0x7f020059;
+        public static final int orange_octopus=0x7f02005a;
+        public static final int orange_seahorse=0x7f02005b;
+        public static final int orange_sponge=0x7f02005c;
+        public static final int orange_starfish=0x7f02005d;
+        public static final int orange_this_is_bait=0x7f02005e;
+        public static final int orange_turtle=0x7f02005f;
+        public static final int powered_by_google_dark=0x7f020060;
+        public static final int powered_by_google_light=0x7f020061;
+        public static final int red_shark_icon=0x7f020062;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f080057;
-        public static final int action_bar=0x7f080044;
-        public static final int action_bar_activity_content=0x7f080000;
-        public static final int action_bar_container=0x7f080043;
-        public static final int action_bar_root=0x7f08003f;
-        public static final int action_bar_spinner=0x7f080001;
-        public static final int action_bar_subtitle=0x7f080032;
-        public static final int action_bar_title=0x7f080031;
-        public static final int action_button=0x7f080056;
-        public static final int action_context_bar=0x7f080045;
-        public static final int action_menu_divider=0x7f080002;
-        public static final int action_menu_presenter=0x7f080003;
-        public static final int action_mode_bar=0x7f080041;
-        public static final int action_mode_bar_stub=0x7f080040;
-        public static final int action_mode_close_button=0x7f080033;
-        public static final int action_settings=0x7f08006c;
-        public static final int activity_chooser_view_content=0x7f080034;
-        public static final int always=0x7f080019;
-        public static final int beginning=0x7f080013;
-        public static final int book_now=0x7f08002b;
-        public static final int bottom=0x7f080021;
-        public static final int buyButton=0x7f080028;
-        public static final int buy_now=0x7f08002c;
-        public static final int buy_with_google=0x7f08002d;
-        public static final int character_count_textview=0x7f08005b;
-        public static final int checkbox=0x7f08003c;
-        public static final int classic=0x7f08002e;
-        public static final int collapseActionView=0x7f08001a;
-        public static final int content_view=0x7f08006a;
-        public static final int decor_content_parent=0x7f080042;
-        public static final int default_activity_button=0x7f080037;
-        public static final int description_textview=0x7f08005d;
-        public static final int dialog=0x7f08001e;
-        public static final int disableHome=0x7f08000c;
-        public static final int dropdown=0x7f08001f;
-        public static final int edit_query=0x7f080046;
-        public static final int edittext_action_login=0x7f080055;
-        public static final int edittext_action_signup=0x7f080064;
-        public static final int end=0x7f080014;
-        public static final int expand_activities_button=0x7f080035;
-        public static final int expanded_menu=0x7f08003b;
-        public static final int grayscale=0x7f08002f;
-        public static final int holo_dark=0x7f080023;
-        public static final int holo_light=0x7f080024;
-        public static final int home=0x7f080004;
-        public static final int homeAsUp=0x7f08000d;
-        public static final int hybrid=0x7f080016;
-        public static final int icon=0x7f080039;
-        public static final int ifRoom=0x7f08001b;
-        public static final int image=0x7f080036;
-        public static final int listMode=0x7f080009;
-        public static final int list_item=0x7f080038;
-        public static final int login_button=0x7f080065;
-        public static final int login_form=0x7f080052;
-        public static final int logout_button=0x7f08005f;
-        public static final int map_fragment=0x7f080058;
-        public static final int match_parent=0x7f08002a;
-        public static final int middle=0x7f080015;
-        public static final int monochrome=0x7f080030;
-        public static final int never=0x7f08001c;
-        public static final int none=0x7f08000e;
-        public static final int normal=0x7f08000a;
-        public static final int password=0x7f080054;
-        public static final int password_again_edit_text=0x7f080063;
-        public static final int password_edit_text=0x7f080062;
-        public static final int post_button=0x7f08005c;
-        public static final int post_edittext=0x7f08005a;
-        public static final int posts_listview=0x7f080059;
-        public static final int production=0x7f080025;
-        public static final int progress_circular=0x7f080005;
-        public static final int progress_horizontal=0x7f080006;
-        public static final int radio=0x7f08003e;
-        public static final int sandbox=0x7f080026;
-        public static final int satellite=0x7f080017;
-        public static final int search_badge=0x7f080048;
-        public static final int search_bar=0x7f080047;
-        public static final int search_button=0x7f080049;
-        public static final int search_close_btn=0x7f08004e;
-        public static final int search_edit_frame=0x7f08004a;
-        public static final int search_go_btn=0x7f080050;
-        public static final int search_mag_icon=0x7f08004b;
-        public static final int search_plate=0x7f08004c;
-        public static final int search_src_text=0x7f08004d;
-        public static final int search_voice_btn=0x7f080051;
-        public static final int searchdistance_radiogroup=0x7f08005e;
-        public static final int selectionDetails=0x7f080029;
-        public static final int shortcut=0x7f08003d;
-        public static final int showCustom=0x7f08000f;
-        public static final int showHome=0x7f080010;
-        public static final int showTitle=0x7f080011;
-        public static final int signup_button=0x7f080066;
-        public static final int signup_form=0x7f080060;
-        public static final int split_action_bar=0x7f080007;
-        public static final int strict_sandbox=0x7f080027;
-        public static final int submit_area=0x7f08004f;
-        public static final int tabMode=0x7f08000b;
-        public static final int terrain=0x7f080018;
-        public static final int textview_1=0x7f080067;
-        public static final int textview_2=0x7f080068;
-        public static final int textview_3=0x7f080069;
-        public static final int title=0x7f08003a;
-        public static final int top=0x7f080022;
-        public static final int up=0x7f080008;
-        public static final int useLogo=0x7f080012;
-        public static final int username=0x7f080053;
-        public static final int username_edit_text=0x7f080061;
-        public static final int username_view=0x7f08006b;
-        public static final int withText=0x7f08001d;
-        public static final int wrap_content=0x7f080020;
+        public static final int GamesListView=0x7f090080;
+        public static final int LinearLayout1=0x7f090078;
+        public static final int action_bar=0x7f090044;
+        public static final int action_bar_activity_content=0x7f090000;
+        public static final int action_bar_container=0x7f090043;
+        public static final int action_bar_root=0x7f09003f;
+        public static final int action_bar_spinner=0x7f090001;
+        public static final int action_bar_subtitle=0x7f090032;
+        public static final int action_bar_title=0x7f090031;
+        public static final int action_button=0x7f090077;
+        public static final int action_context_bar=0x7f090045;
+        public static final int action_logout=0x7f090098;
+        public static final int action_menu_divider=0x7f090002;
+        public static final int action_menu_presenter=0x7f090003;
+        public static final int action_mode_bar=0x7f090041;
+        public static final int action_mode_bar_stub=0x7f090040;
+        public static final int action_mode_close_button=0x7f090033;
+        public static final int action_settings=0x7f090097;
+        public static final int activity_chooser_view_content=0x7f090034;
+        public static final int always=0x7f090019;
+        public static final int avatar_radiogroup=0x7f090069;
+        public static final int avatar_scrollview=0x7f090068;
+        public static final int avatar_textview=0x7f090067;
+        public static final int beginning=0x7f090013;
+        public static final int book_now=0x7f09002b;
+        public static final int bottom=0x7f090021;
+        public static final int button_create_game=0x7f09007f;
+        public static final int button_layout=0x7f090052;
+        public static final int buyButton=0x7f090028;
+        public static final int buy_now=0x7f09002c;
+        public static final int buy_with_google=0x7f09002d;
+        public static final int character_count_textview=0x7f090084;
+        public static final int checkbox=0x7f09003c;
+        public static final int classic=0x7f09002e;
+        public static final int collapseActionView=0x7f09001a;
+        public static final int content_view=0x7f090095;
+        public static final int crab=0x7f09006a;
+        public static final int create_button=0x7f09007e;
+        public static final int decor_content_parent=0x7f090042;
+        public static final int default_activity_button=0x7f090037;
+        public static final int default_settings_button=0x7f090073;
+        public static final int description_textview=0x7f090086;
+        public static final int dialog=0x7f09001e;
+        public static final int disableHome=0x7f09000c;
+        public static final int done_button=0x7f090072;
+        public static final int dropdown=0x7f09001f;
+        public static final int edit_query=0x7f090046;
+        public static final int edittext_action_login=0x7f090076;
+        public static final int edittext_action_signup=0x7f09008c;
+        public static final int end=0x7f090014;
+        public static final int expand_activities_button=0x7f090035;
+        public static final int expanded_menu=0x7f09003b;
+        public static final int fifty_meters=0x7f09005b;
+        public static final int fish=0x7f090070;
+        public static final int five=0x7f090060;
+        public static final int five_meters=0x7f090058;
+        public static final int gamesettings_textview=0x7f090053;
+        public static final int gpRadius=0x7f090055;
+        public static final int gpradius_textview=0x7f090054;
+        public static final int grayscale=0x7f09002f;
+        public static final int holo_dark=0x7f090023;
+        public static final int holo_light=0x7f090024;
+        public static final int home=0x7f090004;
+        public static final int homeAsUp=0x7f09000d;
+        public static final int hostuser_view=0x7f090081;
+        public static final int hybrid=0x7f090016;
+        public static final int icon=0x7f090039;
+        public static final int ifRoom=0x7f09001b;
+        public static final int image=0x7f090036;
+        public static final int in_game_timer=0x7f09007b;
+        public static final int jellyfish=0x7f09006b;
+        public static final int limit_radiogroup=0x7f09005d;
+        public static final int limit_textView=0x7f09005c;
+        public static final int listMode=0x7f090009;
+        public static final int list_item=0x7f090038;
+        public static final int login_button=0x7f090090;
+        public static final int logout_button=0x7f090088;
+        public static final int main_lobby_tittle=0x7f09007d;
+        public static final int map_fragment=0x7f090079;
+        public static final int match_parent=0x7f09002a;
+        public static final int middle=0x7f090015;
+        public static final int monochrome=0x7f090030;
+        public static final int never=0x7f09001c;
+        public static final int nine=0x7f090062;
+        public static final int none=0x7f09000e;
+        public static final int normal=0x7f09000a;
+        public static final int numplayers_view=0x7f090082;
+        public static final int octopus=0x7f09006c;
+        public static final int one=0x7f09005e;
+        public static final int password=0x7f090075;
+        public static final int password_again_edit_text=0x7f09008b;
+        public static final int password_edit_text=0x7f09008a;
+        public static final int playerSettings_textview=0x7f090066;
+        public static final int players_listview=0x7f09007c;
+        public static final int post_button=0x7f090085;
+        public static final int post_edittext=0x7f090083;
+        public static final int production=0x7f090025;
+        public static final int progress_circular=0x7f090005;
+        public static final int progress_horizontal=0x7f090006;
+        public static final int radio=0x7f09003e;
+        public static final int sandbox=0x7f090026;
+        public static final int satellite=0x7f090017;
+        public static final int seahorse=0x7f09006d;
+        public static final int search_badge=0x7f090048;
+        public static final int search_bar=0x7f090047;
+        public static final int search_button=0x7f090049;
+        public static final int search_close_btn=0x7f09004e;
+        public static final int search_edit_frame=0x7f09004a;
+        public static final int search_go_btn=0x7f090050;
+        public static final int search_mag_icon=0x7f09004b;
+        public static final int search_plate=0x7f09004c;
+        public static final int search_src_text=0x7f09004d;
+        public static final int search_voice_btn=0x7f090051;
+        public static final int searchdistance_radiogroup=0x7f090087;
+        public static final int selectionDetails=0x7f090029;
+        public static final int seven=0x7f090061;
+        public static final int shortcut=0x7f09003d;
+        public static final int showCustom=0x7f09000f;
+        public static final int showHome=0x7f090010;
+        public static final int showTitle=0x7f090011;
+        public static final int signup_button=0x7f090091;
+        public static final int spinner=0x7f090064;
+        public static final int split_action_bar=0x7f090007;
+        public static final int sponge=0x7f09006e;
+        public static final int starfish=0x7f09006f;
+        public static final int startGameButton=0x7f09007a;
+        public static final int strict_sandbox=0x7f090027;
+        public static final int submit_area=0x7f09004f;
+        public static final int suspendTextView=0x7f09008d;
+        public static final int suspensionTestRadio=0x7f09008f;
+        public static final int suspensionTestText1=0x7f09008e;
+        public static final int tabMode=0x7f09000b;
+        public static final int tag_radiogroup=0x7f090057;
+        public static final int tag_textview=0x7f090056;
+        public static final int ten_meters=0x7f090059;
+        public static final int terrain=0x7f090018;
+        public static final int textview_1=0x7f090092;
+        public static final int textview_2=0x7f090093;
+        public static final int textview_3=0x7f090094;
+        public static final int three=0x7f09005f;
+        public static final int time_textView=0x7f090065;
+        public static final int title=0x7f09003a;
+        public static final int top=0x7f090022;
+        public static final int turtle=0x7f090071;
+        public static final int twenty_meters=0x7f09005a;
+        public static final int unlimited=0x7f090063;
+        public static final int up=0x7f090008;
+        public static final int useLogo=0x7f090012;
+        public static final int username=0x7f090074;
+        public static final int username_edit_text=0x7f090089;
+        public static final int username_view=0x7f090096;
+        public static final int withText=0x7f09001d;
+        public static final int wrap_content=0x7f090020;
     }
     public static final class integer {
-        public static final int abc_max_action_buttons=0x7f090000;
-        public static final int google_play_services_version=0x7f090001;
+        public static final int abc_max_action_buttons=0x7f0a0000;
+        public static final int google_play_services_version=0x7f0a0001;
     }
     public static final class layout {
         public static final int abc_action_bar_title_item=0x7f030000;
@@ -1788,354 +1854,375 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030014;
         public static final int abc_search_view=0x7f030015;
         public static final int abc_simple_dropdown_hint=0x7f030016;
-        public static final int activity_login=0x7f030017;
-        public static final int activity_main=0x7f030018;
-        public static final int activity_post=0x7f030019;
-        public static final int activity_settings=0x7f03001a;
-        public static final int activity_signup=0x7f03001b;
-        public static final int activity_welcome=0x7f03001c;
-        public static final int anywall_post_item=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
+        public static final int activity_create_game=0x7f030017;
+        public static final int activity_login=0x7f030018;
+        public static final int activity_main=0x7f030019;
+        public static final int activity_main_lobby=0x7f03001a;
+        public static final int activity_main_lobby_gameview=0x7f03001b;
+        public static final int activity_post=0x7f03001c;
+        public static final int activity_settings=0x7f03001d;
+        public static final int activity_signup=0x7f03001e;
+        public static final int activity_suspension=0x7f03001f;
+        public static final int activity_suspension_tester=0x7f030020;
+        public static final int activity_welcome=0x7f030021;
+        public static final int anywall_post_item=0x7f030022;
+        public static final int settings_spinner=0x7f030023;
+        public static final int support_simple_spinner_dropdown_item=0x7f030024;
     }
     public static final class menu {
-        public static final int main=0x7f0c0000;
+        public static final int main=0x7f0d0000;
     }
     public static final class string {
-        public static final int abc_action_bar_home_description=0x7f0a0000;
-        public static final int abc_action_bar_home_description_format=0x7f0a0001;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f0a0002;
-        public static final int abc_action_bar_up_description=0x7f0a0003;
-        public static final int abc_action_menu_overflow_description=0x7f0a0004;
-        public static final int abc_action_mode_done=0x7f0a0005;
-        public static final int abc_activity_chooser_view_see_all=0x7f0a0006;
-        public static final int abc_activitychooserview_choose_application=0x7f0a0007;
-        public static final int abc_searchview_description_clear=0x7f0a0008;
-        public static final int abc_searchview_description_query=0x7f0a0009;
-        public static final int abc_searchview_description_search=0x7f0a000a;
-        public static final int abc_searchview_description_submit=0x7f0a000b;
-        public static final int abc_searchview_description_voice=0x7f0a000c;
-        public static final int abc_shareactionprovider_share_with=0x7f0a000d;
-        public static final int abc_shareactionprovider_share_with_application=0x7f0a000e;
-        public static final int accept=0x7f0a000f;
-        public static final int action_settings=0x7f0a0010;
-        public static final int activity_post_title=0x7f0a0011;
-        public static final int app_name=0x7f0a0012;
-        public static final int character_count_placeholder=0x7f0a0013;
-        public static final int common_android_wear_notification_needs_update_text=0x7f0a0014;
-        public static final int common_android_wear_update_text=0x7f0a0015;
-        public static final int common_android_wear_update_title=0x7f0a0016;
-        public static final int common_google_play_services_enable_button=0x7f0a0017;
-        public static final int common_google_play_services_enable_text=0x7f0a0018;
-        public static final int common_google_play_services_enable_title=0x7f0a0019;
-        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f0a001a;
-        public static final int common_google_play_services_install_button=0x7f0a001b;
-        public static final int common_google_play_services_install_text_phone=0x7f0a001c;
-        public static final int common_google_play_services_install_text_tablet=0x7f0a001d;
-        public static final int common_google_play_services_install_title=0x7f0a001e;
-        public static final int common_google_play_services_invalid_account_text=0x7f0a001f;
-        public static final int common_google_play_services_invalid_account_title=0x7f0a0020;
-        public static final int common_google_play_services_needs_enabling_title=0x7f0a0021;
-        public static final int common_google_play_services_network_error_text=0x7f0a0022;
-        public static final int common_google_play_services_network_error_title=0x7f0a0023;
-        public static final int common_google_play_services_notification_needs_installation_title=0x7f0a0024;
-        public static final int common_google_play_services_notification_needs_update_title=0x7f0a0025;
-        public static final int common_google_play_services_notification_ticker=0x7f0a0026;
-        public static final int common_google_play_services_unknown_issue=0x7f0a0027;
-        public static final int common_google_play_services_unsupported_text=0x7f0a0028;
-        public static final int common_google_play_services_unsupported_title=0x7f0a0029;
-        public static final int common_google_play_services_update_button=0x7f0a002a;
-        public static final int common_google_play_services_update_text=0x7f0a002b;
-        public static final int common_google_play_services_update_title=0x7f0a002c;
-        public static final int common_open_on_phone=0x7f0a002d;
-        public static final int common_signin_button_text=0x7f0a002e;
-        public static final int common_signin_button_text_long=0x7f0a002f;
-        public static final int create_calendar_message=0x7f0a0030;
-        public static final int create_calendar_title=0x7f0a0031;
-        public static final int decline=0x7f0a0032;
-        public static final int error_blank_password=0x7f0a0033;
-        public static final int error_blank_username=0x7f0a0034;
-        public static final int error_end=0x7f0a0035;
-        public static final int error_intro=0x7f0a0036;
-        public static final int error_join=0x7f0a0037;
-        public static final int error_mismatched_passwords=0x7f0a0038;
-        public static final int login=0x7f0a0039;
-        public static final int logout_full=0x7f0a003a;
-        public static final int post=0x7f0a003b;
-        public static final int post_out_of_range=0x7f0a003c;
-        public static final int powered_by=0x7f0a003d;
-        public static final int progress_login=0x7f0a003e;
-        public static final int progress_post=0x7f0a003f;
-        public static final int progress_signup=0x7f0a0040;
-        public static final int prompt_password=0x7f0a0041;
-        public static final int prompt_password_again=0x7f0a0042;
-        public static final int prompt_post=0x7f0a0043;
-        public static final int prompt_username=0x7f0a0044;
-        public static final int search_distance=0x7f0a0045;
-        public static final int settings_distance_format=0x7f0a0046;
-        public static final int signup=0x7f0a0047;
-        public static final int slogan=0x7f0a0048;
-        public static final int store_picture_message=0x7f0a0049;
-        public static final int store_picture_title=0x7f0a004a;
-        public static final int teamPi=0x7f0a004b;
-        public static final int title_activity_login=0x7f0a004c;
-        public static final int title_activity_settings=0x7f0a004d;
-        public static final int title_activity_signup=0x7f0a004e;
-        public static final int wallet_buy_button_place_holder=0x7f0a004f;
+        public static final int abc_action_bar_home_description=0x7f0b0000;
+        public static final int abc_action_bar_home_description_format=0x7f0b0001;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f0b0002;
+        public static final int abc_action_bar_up_description=0x7f0b0003;
+        public static final int abc_action_menu_overflow_description=0x7f0b0004;
+        public static final int abc_action_mode_done=0x7f0b0005;
+        public static final int abc_activity_chooser_view_see_all=0x7f0b0006;
+        public static final int abc_activitychooserview_choose_application=0x7f0b0007;
+        public static final int abc_searchview_description_clear=0x7f0b0008;
+        public static final int abc_searchview_description_query=0x7f0b0009;
+        public static final int abc_searchview_description_search=0x7f0b000a;
+        public static final int abc_searchview_description_submit=0x7f0b000b;
+        public static final int abc_searchview_description_voice=0x7f0b000c;
+        public static final int abc_shareactionprovider_share_with=0x7f0b000d;
+        public static final int abc_shareactionprovider_share_with_application=0x7f0b000e;
+        public static final int accept=0x7f0b000f;
+        public static final int action_settings=0x7f0b0010;
+        public static final int activity_post_title=0x7f0b0011;
+        public static final int activity_suspension_title=0x7f0b0012;
+        public static final int app_name=0x7f0b0013;
+        public static final int apply=0x7f0b0014;
+        public static final int avatar=0x7f0b0015;
+        public static final int character_count_placeholder=0x7f0b0016;
+        public static final int common_android_wear_notification_needs_update_text=0x7f0b0017;
+        public static final int common_android_wear_update_text=0x7f0b0018;
+        public static final int common_android_wear_update_title=0x7f0b0019;
+        public static final int common_google_play_services_enable_button=0x7f0b001a;
+        public static final int common_google_play_services_enable_text=0x7f0b001b;
+        public static final int common_google_play_services_enable_title=0x7f0b001c;
+        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f0b001d;
+        public static final int common_google_play_services_install_button=0x7f0b001e;
+        public static final int common_google_play_services_install_text_phone=0x7f0b001f;
+        public static final int common_google_play_services_install_text_tablet=0x7f0b0020;
+        public static final int common_google_play_services_install_title=0x7f0b0021;
+        public static final int common_google_play_services_invalid_account_text=0x7f0b0022;
+        public static final int common_google_play_services_invalid_account_title=0x7f0b0023;
+        public static final int common_google_play_services_needs_enabling_title=0x7f0b0024;
+        public static final int common_google_play_services_network_error_text=0x7f0b0025;
+        public static final int common_google_play_services_network_error_title=0x7f0b0026;
+        public static final int common_google_play_services_notification_needs_installation_title=0x7f0b0027;
+        public static final int common_google_play_services_notification_needs_update_title=0x7f0b0028;
+        public static final int common_google_play_services_notification_ticker=0x7f0b0029;
+        public static final int common_google_play_services_unknown_issue=0x7f0b002a;
+        public static final int common_google_play_services_unsupported_text=0x7f0b002b;
+        public static final int common_google_play_services_unsupported_title=0x7f0b002c;
+        public static final int common_google_play_services_update_button=0x7f0b002d;
+        public static final int common_google_play_services_update_text=0x7f0b002e;
+        public static final int common_google_play_services_update_title=0x7f0b002f;
+        public static final int common_open_on_phone=0x7f0b0030;
+        public static final int common_signin_button_text=0x7f0b0031;
+        public static final int common_signin_button_text_long=0x7f0b0032;
+        public static final int createGame=0x7f0b0033;
+        public static final int create_calendar_message=0x7f0b0034;
+        public static final int create_calendar_title=0x7f0b0035;
+        public static final int decline=0x7f0b0036;
+        public static final int defaultSettings=0x7f0b0037;
+        public static final int error_blank_password=0x7f0b0038;
+        public static final int error_blank_username=0x7f0b0039;
+        public static final int error_end=0x7f0b003a;
+        public static final int error_intro=0x7f0b003b;
+        public static final int error_join=0x7f0b003c;
+        public static final int error_mismatched_passwords=0x7f0b003d;
+        public static final int exit_lobby=0x7f0b003e;
+        public static final int gameSettings=0x7f0b003f;
+        public static final int game_lobby=0x7f0b0040;
+        public static final int gameplay_radius=0x7f0b0041;
+        public static final int login=0x7f0b0042;
+        public static final int logout_full=0x7f0b0043;
+        public static final int mainLobbyTitle=0x7f0b0044;
+        public static final int main_lobby=0x7f0b0045;
+        public static final int mapsAPIkeyV2=0x7f0b0046;
+        public static final int parseApp_ID=0x7f0b0047;
+        public static final int parseClient_ID=0x7f0b0048;
+        public static final int playerSettings=0x7f0b0049;
+        public static final int post=0x7f0b004a;
+        public static final int post_out_of_range=0x7f0b004b;
+        public static final int powered_by=0x7f0b004c;
+        public static final int progress_login=0x7f0b004d;
+        public static final int progress_post=0x7f0b004e;
+        public static final int progress_signup=0x7f0b004f;
+        public static final int prompt_password=0x7f0b0050;
+        public static final int prompt_password_again=0x7f0b0051;
+        public static final int prompt_post=0x7f0b0052;
+        public static final int prompt_username=0x7f0b0053;
+        public static final int search_distance=0x7f0b0054;
+        public static final int settings_distance_format=0x7f0b0055;
+        public static final int signup=0x7f0b0056;
+        public static final int slogan=0x7f0b0057;
+        public static final int start_game=0x7f0b0058;
+        public static final int store_picture_message=0x7f0b0059;
+        public static final int store_picture_title=0x7f0b005a;
+        public static final int taglimit=0x7f0b005b;
+        public static final int tagradius=0x7f0b005c;
+        public static final int teamPi=0x7f0b005d;
+        public static final int time_limit=0x7f0b005e;
+        public static final int title_activity_lobby=0x7f0b005f;
+        public static final int title_activity_login=0x7f0b0060;
+        public static final int title_activity_settings=0x7f0b0061;
+        public static final int title_activity_signup=0x7f0b0062;
+        public static final int wallet_buy_button_place_holder=0x7f0b0063;
     }
     public static final class style {
-        /** 
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
- API 11 theme customizations can go here. 
+        public static final int ActionBar=0x7f0c0000;
+        /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f0b0000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
-        public static final int AppTheme=0x7f0b0001;
-        public static final int Base_TextAppearance_AppCompat=0x7f0b0002;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b0003;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b0004;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f0b0005;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0b0006;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0b0007;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0b0008;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0b0009;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0b000a;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0b000b;
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0b000c;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f0b000d;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b000e;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b000f;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0010;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0b0011;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b0012;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0b0013;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0b0014;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0015;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0016;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f0b0017;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b0018;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0b0019;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b001a;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f0b001b;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b001c;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b001d;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b001e;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b001f;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0020;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0021;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0022;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0023;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b0024;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b0025;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b0026;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b0027;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b0028;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0029;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b002a;
-        public static final int Base_Theme_AppCompat=0x7f0b002b;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b002c;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f0b002d;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b002e;
-        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b002f;
-        public static final int Base_Theme_AppCompat_Light=0x7f0b0030;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b0031;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b0032;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b0033;
-        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0034;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0b0035;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b0036;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b0037;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0038;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b0039;
-        public static final int Base_V11_Theme_AppCompat=0x7f0b00e7;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b00e8;
-        public static final int Base_V11_Theme_AppCompat_Light=0x7f0b00e9;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b00ea;
-        public static final int Base_V14_Theme_AppCompat=0x7f0b00eb;
-        public static final int Base_V14_Theme_AppCompat_Dialog=0x7f0b00ec;
-        public static final int Base_V14_Theme_AppCompat_Light=0x7f0b00ed;
-        public static final int Base_V14_Theme_AppCompat_Light_Dialog=0x7f0b00ee;
-        public static final int Base_V21_Theme_AppCompat=0x7f0b00ef;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b00f0;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f0b00f1;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b00f2;
-        public static final int Base_V7_Theme_AppCompat=0x7f0b003a;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b003b;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0b003c;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0b003d;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b003e;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b003f;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0040;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b0041;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f0b0042;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0043;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b0044;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0b0045;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b0046;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0047;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b0048;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b0049;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b004a;
-        public static final int Base_Widget_AppCompat_EditText=0x7f0b004b;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0b004c;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b004d;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b004e;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b004f;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0050;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0051;
-        public static final int Base_Widget_AppCompat_Light_ActivityChooserView=0x7f0b0052;
-        public static final int Base_Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b0053;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b0054;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0055;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0b0056;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0b0057;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0b0058;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0b0059;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b005a;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0b005b;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0b005c;
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b005d;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0b005e;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f0b005f;
-        public static final int Base_Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0060;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0b0061;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0062;
-        public static final int LoginFormContainer=0x7f0b0063;
-        public static final int Platform_AppCompat=0x7f0b0064;
-        public static final int Platform_AppCompat_Dialog=0x7f0b0065;
-        public static final int Platform_AppCompat_Light=0x7f0b0066;
-        public static final int Platform_AppCompat_Light_Dialog=0x7f0b0067;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b0068;
-        public static final int RtlOverlay_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0069;
-        public static final int RtlOverlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b006a;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b006b;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b006c;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b006d;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b006e;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b006f;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b0070;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b0071;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b0072;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b0073;
-        public static final int TextAppearance_AppCompat=0x7f0b0074;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0b0075;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0b0076;
-        public static final int TextAppearance_AppCompat_Button=0x7f0b0077;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0b0078;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0b0079;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0b007a;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0b007b;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0b007c;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0b007d;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0b007e;
-        public static final int TextAppearance_AppCompat_Large=0x7f0b007f;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0b0080;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b0081;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b0082;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0083;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0084;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0b0085;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0b0086;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0b0087;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0088;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b0089;
-        public static final int TextAppearance_AppCompat_Small=0x7f0b008a;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0b008b;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0b008c;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b008d;
-        public static final int TextAppearance_AppCompat_Title=0x7f0b008e;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0b008f;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b0090;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0091;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b0092;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0093;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0094;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0095;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b0096;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0097;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b0098;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b0099;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b009a;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b009b;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0b009c;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b009d;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b009e;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b009f;
-        public static final int Theme_AppCompat=0x7f0b00a0;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0b00a1;
-        public static final int Theme_AppCompat_Dialog=0x7f0b00a2;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b00a3;
-        public static final int Theme_AppCompat_Light=0x7f0b00a4;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b00a5;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0b00a6;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b00a7;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b00a8;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0b00a9;
-        public static final int Theme_IAPTheme=0x7f0b00aa;
-        public static final int ThemeOverlay_AppCompat=0x7f0b00ab;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b00ac;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0b00ad;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00ae;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0b00af;
-        public static final int WalletFragmentDefaultButtonTextAppearance=0x7f0b00b0;
-        public static final int WalletFragmentDefaultDetailsHeaderTextAppearance=0x7f0b00b1;
-        public static final int WalletFragmentDefaultDetailsTextAppearance=0x7f0b00b2;
-        public static final int WalletFragmentDefaultStyle=0x7f0b00b3;
-        public static final int Widget_AppCompat_ActionBar=0x7f0b00b4;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b00b5;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b00b6;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b00b7;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b00b8;
-        public static final int Widget_AppCompat_ActionButton=0x7f0b00b9;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b00ba;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b00bb;
-        public static final int Widget_AppCompat_ActionMode=0x7f0b00bc;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b00bd;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b00be;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b00bf;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0b00c0;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b00c1;
-        public static final int Widget_AppCompat_EditText=0x7f0b00c2;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b00c3;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00c4;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b00c5;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00c6;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b00c7;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b00c8;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b00c9;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b00ca;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b00cb;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b00cc;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b00cd;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b00ce;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b00cf;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b00d0;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b00d1;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b00d2;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b00d3;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b00d4;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b00d5;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b00d6;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f0b00d7;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b00d8;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b00d9;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b00da;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f0b00db;
-        public static final int Widget_AppCompat_PopupMenu=0x7f0b00dc;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0b00dd;
-        public static final int Widget_AppCompat_PopupWindow=0x7f0b00de;
-        public static final int Widget_AppCompat_ProgressBar=0x7f0b00df;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b00e0;
-        public static final int Widget_AppCompat_SearchView=0x7f0b00e1;
-        public static final int Widget_AppCompat_Spinner=0x7f0b00e2;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0b00e3;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b00e4;
-        public static final int Widget_AppCompat_Toolbar=0x7f0b00e5;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b00e6;
+        public static final int AppBaseTheme=0x7f0c00e8;
+        public static final int AppTheme=0x7f0c0001;
+        public static final int Base_TextAppearance_AppCompat=0x7f0c0002;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0c0003;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0c0004;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f0c0005;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0c0006;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0c0007;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0c0008;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0c0009;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0c000a;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0c000b;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0c000c;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f0c000d;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0c000e;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c000f;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c0010;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0c0011;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0c0012;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0c0013;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0c0014;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c0015;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0c0016;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f0c0017;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0c0018;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0c0019;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0c001a;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f0c001b;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0c001c;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c001d;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c001e;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c001f;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c0020;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c0021;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c0022;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c0023;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c0024;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c0025;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c0026;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0c0027;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c0028;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c0029;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c002a;
+        public static final int Base_Theme_AppCompat=0x7f0c002b;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0c002c;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f0c002d;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0c002e;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0c002f;
+        public static final int Base_Theme_AppCompat_Light=0x7f0c0030;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0c0031;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0c0032;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0c0033;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0c0034;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0c0035;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0c0036;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0c0037;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c0038;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0c0039;
+        public static final int Base_V11_Theme_AppCompat=0x7f0c00e9;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0c00ea;
+        public static final int Base_V11_Theme_AppCompat_Light=0x7f0c00eb;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0c00ec;
+        public static final int Base_V14_Theme_AppCompat=0x7f0c00ed;
+        public static final int Base_V14_Theme_AppCompat_Dialog=0x7f0c00ee;
+        public static final int Base_V14_Theme_AppCompat_Light=0x7f0c00ef;
+        public static final int Base_V14_Theme_AppCompat_Light_Dialog=0x7f0c00f0;
+        public static final int Base_V21_Theme_AppCompat=0x7f0c00f1;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0c00f2;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f0c00f3;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0c00f4;
+        public static final int Base_V7_Theme_AppCompat=0x7f0c003a;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0c003b;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0c003c;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0c003d;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0c003e;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0c003f;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0c0040;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0c0041;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f0c0042;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0c0043;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0c0044;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0c0045;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0c0046;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0c0047;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0c0048;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0c0049;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0c004a;
+        public static final int Base_Widget_AppCompat_EditText=0x7f0c004b;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0c004c;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0c004d;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c004e;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0c004f;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c0050;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0c0051;
+        public static final int Base_Widget_AppCompat_Light_ActivityChooserView=0x7f0c0052;
+        public static final int Base_Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c0053;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0c0054;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c0055;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0c0056;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0c0057;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0c0058;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0c0059;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0c005a;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0c005b;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0c005c;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0c005d;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0c005e;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f0c005f;
+        public static final int Base_Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c0060;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0c0061;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0062;
+        public static final int LoginButton=0x7f0c0063;
+        public static final int LoginFormContainer=0x7f0c0064;
+        public static final int Platform_AppCompat=0x7f0c0065;
+        public static final int Platform_AppCompat_Dialog=0x7f0c0066;
+        public static final int Platform_AppCompat_Light=0x7f0c0067;
+        public static final int Platform_AppCompat_Light_Dialog=0x7f0c0068;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0c0069;
+        public static final int RtlOverlay_Widget_AppCompat_ActionButton_CloseMode=0x7f0c006a;
+        public static final int RtlOverlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c006b;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0c006c;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0c006d;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0c006e;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0c006f;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0c0070;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0c0071;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0c0072;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0c0073;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c0074;
+        public static final int TextAppearance_AppCompat=0x7f0c0075;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0c0076;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0c0077;
+        public static final int TextAppearance_AppCompat_Button=0x7f0c0078;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0c0079;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0c007a;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0c007b;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0c007c;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0c007d;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0c007e;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0c007f;
+        public static final int TextAppearance_AppCompat_Large=0x7f0c0080;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0c0081;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0c0082;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0c0083;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0c0084;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0c0085;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0c0086;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0c0087;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0c0088;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0c0089;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0c008a;
+        public static final int TextAppearance_AppCompat_Small=0x7f0c008b;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0c008c;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0c008d;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0c008e;
+        public static final int TextAppearance_AppCompat_Title=0x7f0c008f;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0c0090;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0c0091;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0c0092;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0c0093;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0c0094;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0c0095;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0c0096;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0c0097;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0c0098;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0c0099;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0c009a;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0c009b;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c009c;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c009d;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0c009e;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0c009f;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0c00a0;
+        public static final int Theme_AppCompat=0x7f0c00a1;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0c00a2;
+        public static final int Theme_AppCompat_Dialog=0x7f0c00a3;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0c00a4;
+        public static final int Theme_AppCompat_Light=0x7f0c00a5;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0c00a6;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0c00a7;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c00a8;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c00a9;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0c00aa;
+        public static final int Theme_IAPTheme=0x7f0c00ab;
+        public static final int ThemeOverlay_AppCompat=0x7f0c00ac;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0c00ad;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0c00ae;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0c00af;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0c00b0;
+        public static final int WalletFragmentDefaultButtonTextAppearance=0x7f0c00b1;
+        public static final int WalletFragmentDefaultDetailsHeaderTextAppearance=0x7f0c00b2;
+        public static final int WalletFragmentDefaultDetailsTextAppearance=0x7f0c00b3;
+        public static final int WalletFragmentDefaultStyle=0x7f0c00b4;
+        public static final int Widget_AppCompat_ActionBar=0x7f0c00b5;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0c00b6;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0c00b7;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0c00b8;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0c00b9;
+        public static final int Widget_AppCompat_ActionButton=0x7f0c00ba;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0c00bb;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0c00bc;
+        public static final int Widget_AppCompat_ActionMode=0x7f0c00bd;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0c00be;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0c00bf;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0c00c0;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0c00c1;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0c00c2;
+        public static final int Widget_AppCompat_EditText=0x7f0c00c3;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0c00c4;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0c00c5;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0c00c6;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0c00c7;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0c00c8;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0c00c9;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0c00ca;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0c00cb;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0c00cc;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0c00cd;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0c00ce;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0c00cf;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0c00d0;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0c00d1;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0c00d2;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0c00d3;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0c00d4;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0c00d5;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0c00d6;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0c00d7;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f0c00d8;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0c00d9;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f0c00da;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f0c00db;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f0c00dc;
+        public static final int Widget_AppCompat_PopupMenu=0x7f0c00dd;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0c00de;
+        public static final int Widget_AppCompat_PopupWindow=0x7f0c00df;
+        public static final int Widget_AppCompat_ProgressBar=0x7f0c00e0;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0c00e1;
+        public static final int Widget_AppCompat_SearchView=0x7f0c00e2;
+        public static final int Widget_AppCompat_Spinner=0x7f0c00e3;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0c00e4;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0c00e5;
+        public static final int Widget_AppCompat_Toolbar=0x7f0c00e6;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c00e7;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -2144,33 +2231,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.parse.anywall:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.parse.anywall:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.parse.anywall:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.parse.anywall:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.parse.anywall:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.parse.anywall:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.parse.anywall:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.parse.anywall:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.parse.anywall:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.parse.anywall:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.parse.anywall:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.parse.anywall:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.parse.anywall:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.parse.anywall:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.parse.anywall:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.parse.anywall:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.parse.anywall:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.parse.anywall:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.parse.anywall:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.parse.anywall:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.parse.anywall:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.parse.anywall:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.parse.anywall:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.parse.anywall:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.parse.anywall:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.parse.anywall:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.parse.anywall:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.parse.tagteampi:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.parse.tagteampi:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.parse.tagteampi:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.parse.tagteampi:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.parse.tagteampi:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.parse.tagteampi:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.parse.tagteampi:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.parse.tagteampi:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.parse.tagteampi:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.parse.tagteampi:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.parse.tagteampi:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.parse.tagteampi:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.parse.tagteampi:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.parse.tagteampi:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.parse.tagteampi:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.parse.tagteampi:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.parse.tagteampi:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.parse.tagteampi:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.parse.tagteampi:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.parse.tagteampi:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.parse.tagteampi:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.parse.tagteampi:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.parse.tagteampi:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.parse.tagteampi:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.parse.tagteampi:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.parse.tagteampi:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.parse.tagteampi:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2210,17 +2297,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010082
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#background}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:background
+          @attr name com.parse.tagteampi:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2228,11 +2315,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.parse.anywall:backgroundSplit
+          @attr name com.parse.tagteampi:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2240,11 +2327,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.parse.anywall:backgroundStacked
+          @attr name com.parse.tagteampi:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2256,11 +2343,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:contentInsetEnd
+          @attr name com.parse.tagteampi:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2272,11 +2359,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:contentInsetLeft
+          @attr name com.parse.tagteampi:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2288,11 +2375,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:contentInsetRight
+          @attr name com.parse.tagteampi:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2304,21 +2391,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:contentInsetStart
+          @attr name com.parse.tagteampi:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:customNavigationLayout
+          @attr name com.parse.tagteampi:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2336,21 +2423,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:displayOptions
+          @attr name com.parse.tagteampi:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:divider
+          @attr name com.parse.tagteampi:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2362,11 +2449,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:elevation
+          @attr name com.parse.tagteampi:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#height}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2378,11 +2465,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:height
+          @attr name com.parse.tagteampi:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2392,51 +2479,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:hideOnContentScroll
+          @attr name com.parse.tagteampi:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:homeAsUpIndicator
+          @attr name com.parse.tagteampi:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:homeLayout
+          @attr name com.parse.tagteampi:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:icon
+          @attr name com.parse.tagteampi:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:indeterminateProgressStyle
+          @attr name com.parse.tagteampi:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2448,21 +2535,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:itemPadding
+          @attr name com.parse.tagteampi:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:logo
+          @attr name com.parse.tagteampi:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2476,21 +2563,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:navigationMode
+          @attr name com.parse.tagteampi:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:popupTheme
+          @attr name com.parse.tagteampi:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2502,21 +2589,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:progressBarPadding
+          @attr name com.parse.tagteampi:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:progressBarStyle
+          @attr name com.parse.tagteampi:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2526,21 +2613,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:subtitle
+          @attr name com.parse.tagteampi:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:subtitleTextStyle
+          @attr name com.parse.tagteampi:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#title}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2550,17 +2637,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:title
+          @attr name com.parse.tagteampi:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:titleTextStyle
+          @attr name com.parse.tagteampi:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2612,12 +2699,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.parse.anywall:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.parse.anywall:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.parse.anywall:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.parse.anywall:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.parse.anywall:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.parse.anywall:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.parse.tagteampi:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.parse.tagteampi:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.parse.tagteampi:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.parse.tagteampi:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.parse.tagteampi:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.parse.tagteampi:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2631,17 +2718,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#background}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:background
+          @attr name com.parse.tagteampi:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2649,21 +2736,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.parse.anywall:backgroundSplit
+          @attr name com.parse.tagteampi:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:closeItemLayout
+          @attr name com.parse.tagteampi:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#height}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2675,27 +2762,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:height
+          @attr name com.parse.tagteampi:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:subtitleTextStyle
+          @attr name com.parse.tagteampi:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:titleTextStyle
+          @attr name com.parse.tagteampi:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2704,8 +2791,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.parse.anywall:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.parse.anywall:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.parse.tagteampi:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.parse.tagteampi:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2714,17 +2801,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:expandActivityOverflowButtonDrawable
+          @attr name com.parse.tagteampi:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2734,7 +2821,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:initialActivityCount
+          @attr name com.parse.tagteampi:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AdsAttrs.
@@ -2743,9 +2830,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize com.parse.anywall:adSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes com.parse.anywall:adSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId com.parse.anywall:adUnitId}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.parse.tagteampi:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.parse.tagteampi:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.parse.tagteampi:adUnitId}</code></td><td></td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -2755,7 +2842,7 @@ containing a value of this type.
             0x7f01001f, 0x7f010020, 0x7f010021
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#adSize}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#adSize}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -2765,11 +2852,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:adSize
+          @attr name com.parse.tagteampi:adSize
         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#adSizes}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#adSizes}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -2779,11 +2866,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:adSizes
+          @attr name com.parse.tagteampi:adSizes
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#adUnitId}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#adUnitId}
           attribute's value can be found in the {@link #AdsAttrs} array.
 
 
@@ -2793,7 +2880,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:adUnitId
+          @attr name com.parse.tagteampi:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a CompatTextView.
@@ -2802,7 +2889,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps com.parse.anywall:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps com.parse.tagteampi:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -2810,14 +2897,14 @@ containing a value of this type.
             0x7f010022
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#textAllCaps}
           attribute's value can be found in the {@link #CompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.parse.anywall:textAllCaps
+          @attr name com.parse.tagteampi:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -2826,14 +2913,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize com.parse.anywall:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.parse.anywall:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.parse.anywall:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.parse.anywall:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.parse.anywall:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.parse.anywall:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.parse.anywall:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.parse.anywall:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize com.parse.tagteampi:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.parse.tagteampi:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.parse.tagteampi:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.parse.tagteampi:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize com.parse.tagteampi:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.parse.tagteampi:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.parse.tagteampi:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize com.parse.tagteampi:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -2849,7 +2936,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#barSize}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2861,11 +2948,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:barSize
+          @attr name com.parse.tagteampi:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#color}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2876,11 +2963,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:color
+          @attr name com.parse.tagteampi:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2892,11 +2979,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:drawableSize
+          @attr name com.parse.tagteampi:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2908,11 +2995,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:gapBetweenBars
+          @attr name com.parse.tagteampi:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2924,11 +3011,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:middleBarArrowSize
+          @attr name com.parse.tagteampi:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2938,11 +3025,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:spinBars
+          @attr name com.parse.tagteampi:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2954,11 +3041,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:thickness
+          @attr name com.parse.tagteampi:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2970,7 +3057,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:topBottomBarArrowSize
+          @attr name com.parse.tagteampi:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -2984,10 +3071,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.parse.anywall:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.parse.anywall:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.parse.anywall:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.parse.anywall:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.parse.tagteampi:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.parse.tagteampi:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.parse.tagteampi:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.parse.tagteampi:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -3035,17 +3122,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:divider
+          @attr name com.parse.tagteampi:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3057,11 +3144,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:dividerPadding
+          @attr name com.parse.tagteampi:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3071,11 +3158,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:measureWithLargestChild
+          @attr name com.parse.tagteampi:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -3090,7 +3177,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:showDividers
+          @attr name com.parse.tagteampi:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -3169,20 +3256,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.parse.anywall:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.parse.anywall:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.parse.anywall:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.parse.anywall:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.parse.anywall:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.parse.anywall:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.parse.anywall:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.parse.anywall:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.parse.anywall:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.parse.anywall:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.parse.anywall:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.parse.anywall:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.parse.anywall:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.parse.anywall:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.parse.tagteampi:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.parse.tagteampi:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.parse.tagteampi:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.parse.tagteampi:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.parse.tagteampi:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.parse.tagteampi:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.parse.tagteampi:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.parse.tagteampi:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.parse.tagteampi:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.parse.tagteampi:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.parse.tagteampi:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.parse.tagteampi:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.parse.tagteampi:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.parse.tagteampi:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_cameraBearing
            @see #MapAttrs_cameraTargetLat
@@ -3206,7 +3293,7 @@ containing a value of this type.
             0x7f01003a, 0x7f01003b
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#cameraBearing}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#cameraBearing}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3216,11 +3303,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:cameraBearing
+          @attr name com.parse.tagteampi:cameraBearing
         */
         public static final int MapAttrs_cameraBearing = 1;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#cameraTargetLat}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#cameraTargetLat}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3230,11 +3317,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:cameraTargetLat
+          @attr name com.parse.tagteampi:cameraTargetLat
         */
         public static final int MapAttrs_cameraTargetLat = 2;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#cameraTargetLng}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#cameraTargetLng}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3244,11 +3331,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:cameraTargetLng
+          @attr name com.parse.tagteampi:cameraTargetLng
         */
         public static final int MapAttrs_cameraTargetLng = 3;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#cameraTilt}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#cameraTilt}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3258,11 +3345,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:cameraTilt
+          @attr name com.parse.tagteampi:cameraTilt
         */
         public static final int MapAttrs_cameraTilt = 4;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#cameraZoom}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#cameraZoom}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3272,11 +3359,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:cameraZoom
+          @attr name com.parse.tagteampi:cameraZoom
         */
         public static final int MapAttrs_cameraZoom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#mapType}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#mapType}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3292,11 +3379,11 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:mapType
+          @attr name com.parse.tagteampi:mapType
         */
         public static final int MapAttrs_mapType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#uiCompass}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#uiCompass}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3306,11 +3393,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:uiCompass
+          @attr name com.parse.tagteampi:uiCompass
         */
         public static final int MapAttrs_uiCompass = 6;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#uiRotateGestures}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#uiRotateGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3320,11 +3407,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:uiRotateGestures
+          @attr name com.parse.tagteampi:uiRotateGestures
         */
         public static final int MapAttrs_uiRotateGestures = 7;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#uiScrollGestures}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#uiScrollGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3334,11 +3421,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:uiScrollGestures
+          @attr name com.parse.tagteampi:uiScrollGestures
         */
         public static final int MapAttrs_uiScrollGestures = 8;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#uiTiltGestures}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#uiTiltGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3348,11 +3435,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:uiTiltGestures
+          @attr name com.parse.tagteampi:uiTiltGestures
         */
         public static final int MapAttrs_uiTiltGestures = 9;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#uiZoomControls}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#uiZoomControls}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3362,11 +3449,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:uiZoomControls
+          @attr name com.parse.tagteampi:uiZoomControls
         */
         public static final int MapAttrs_uiZoomControls = 10;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#uiZoomGestures}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#uiZoomGestures}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3376,11 +3463,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:uiZoomGestures
+          @attr name com.parse.tagteampi:uiZoomGestures
         */
         public static final int MapAttrs_uiZoomGestures = 11;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#useViewLifecycle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#useViewLifecycle}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3390,11 +3477,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:useViewLifecycle
+          @attr name com.parse.tagteampi:useViewLifecycle
         */
         public static final int MapAttrs_useViewLifecycle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#zOrderOnTop}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#zOrderOnTop}
           attribute's value can be found in the {@link #MapAttrs} array.
 
 
@@ -3404,7 +3491,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:zOrderOnTop
+          @attr name com.parse.tagteampi:zOrderOnTop
         */
         public static final int MapAttrs_zOrderOnTop = 13;
         /** Attributes that can be used with a MenuGroup.
@@ -3473,9 +3560,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.parse.anywall:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.parse.anywall:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.parse.anywall:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.parse.tagteampi:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.parse.tagteampi:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.parse.tagteampi:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -3489,7 +3576,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.parse.anywall:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.parse.tagteampi:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -3517,17 +3604,17 @@ containing a value of this type.
             0x7f01003f
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionLayout
+          @attr name com.parse.tagteampi:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3537,11 +3624,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:actionProviderClass
+          @attr name com.parse.tagteampi:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3551,7 +3638,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:actionViewClass
+          @attr name com.parse.tagteampi:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -3633,7 +3720,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3649,7 +3736,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:showAsAction
+          @attr name com.parse.tagteampi:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -3665,7 +3752,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.parse.anywall:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.parse.tagteampi:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -3723,7 +3810,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -3733,7 +3820,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:preserveIconSpacing
+          @attr name com.parse.tagteampi:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -3743,7 +3830,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.parse.anywall:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.parse.tagteampi:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -3758,7 +3845,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -3768,7 +3855,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:overlapAnchor
+          @attr name com.parse.tagteampi:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -3777,7 +3864,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.parse.anywall:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.parse.tagteampi:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -3785,7 +3872,7 @@ containing a value of this type.
             0x7f010042
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -3795,7 +3882,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:state_above_anchor
+          @attr name com.parse.tagteampi:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -3808,17 +3895,17 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.parse.anywall:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.parse.anywall:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.parse.anywall:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.parse.anywall:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.parse.anywall:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.parse.anywall:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.parse.anywall:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.parse.anywall:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.parse.anywall:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.parse.anywall:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.parse.anywall:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.parse.tagteampi:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.parse.tagteampi:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.parse.tagteampi:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.parse.tagteampi:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.parse.tagteampi:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.parse.tagteampi:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.parse.tagteampi:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.parse.tagteampi:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.parse.tagteampi:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.parse.tagteampi:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.parse.tagteampi:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -3867,37 +3954,37 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:closeIcon
+          @attr name com.parse.tagteampi:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:commitIcon
+          @attr name com.parse.tagteampi:commitIcon
         */
         public static final int SearchView_commitIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:goIcon
+          @attr name com.parse.tagteampi:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3907,31 +3994,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:iconifiedByDefault
+          @attr name com.parse.tagteampi:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:layout
+          @attr name com.parse.tagteampi:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:queryBackground
+          @attr name com.parse.tagteampi:queryBackground
         */
         public static final int SearchView_queryBackground = 13;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3941,47 +4028,47 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:queryHint
+          @attr name com.parse.tagteampi:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:searchIcon
+          @attr name com.parse.tagteampi:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:submitBackground
+          @attr name com.parse.tagteampi:submitBackground
         */
         public static final int SearchView_submitBackground = 14;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:suggestionRowLayout
+          @attr name com.parse.tagteampi:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 12;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:voiceIcon
+          @attr name com.parse.tagteampi:voiceIcon
         */
         public static final int SearchView_voiceIcon = 10;
         /** Attributes that can be used with a Spinner.
@@ -3997,10 +4084,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.parse.anywall:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView com.parse.anywall:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt com.parse.anywall:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode com.parse.anywall:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled com.parse.tagteampi:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView com.parse.tagteampi:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt com.parse.tagteampi:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode com.parse.tagteampi:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -4062,7 +4149,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4072,31 +4159,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:disableChildrenWhenDisabled
+          @attr name com.parse.tagteampi:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:popupPromptView
+          @attr name com.parse.tagteampi:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#prompt}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:prompt
+          @attr name com.parse.tagteampi:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -4109,7 +4196,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:spinnerMode
+          @attr name com.parse.tagteampi:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -4121,13 +4208,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.parse.anywall:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.parse.anywall:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.parse.anywall:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.parse.anywall:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.parse.anywall:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.parse.anywall:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.parse.anywall:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.parse.tagteampi:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.parse.tagteampi:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.parse.tagteampi:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.parse.tagteampi:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.parse.tagteampi:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.parse.tagteampi:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.parse.tagteampi:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -4164,7 +4251,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4174,11 +4261,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:showText
+          @attr name com.parse.tagteampi:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4188,11 +4275,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:splitTrack
+          @attr name com.parse.tagteampi:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4204,11 +4291,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:switchMinWidth
+          @attr name com.parse.tagteampi:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4220,21 +4307,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:switchPadding
+          @attr name com.parse.tagteampi:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:switchTextAppearance
+          @attr name com.parse.tagteampi:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -4246,17 +4333,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:thumbTextPadding
+          @attr name com.parse.tagteampi:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#track}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:track
+          @attr name com.parse.tagteampi:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a Theme.
@@ -4265,89 +4352,89 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider com.parse.anywall:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground com.parse.anywall:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme com.parse.anywall:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize com.parse.anywall:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle com.parse.anywall:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle com.parse.anywall:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.parse.anywall:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle com.parse.anywall:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.parse.anywall:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme com.parse.anywall:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.parse.anywall:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle com.parse.anywall:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle com.parse.anywall:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.parse.anywall:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor com.parse.anywall:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground com.parse.anywall:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.parse.anywall:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.parse.anywall:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.parse.anywall:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable com.parse.anywall:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable com.parse.anywall:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable com.parse.anywall:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.parse.anywall:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.parse.anywall:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable com.parse.anywall:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground com.parse.anywall:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle com.parse.anywall:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.parse.anywall:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.parse.anywall:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.parse.anywall:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle com.parse.anywall:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider com.parse.tagteampi:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground com.parse.tagteampi:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme com.parse.tagteampi:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize com.parse.tagteampi:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle com.parse.tagteampi:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle com.parse.tagteampi:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle com.parse.tagteampi:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle com.parse.tagteampi:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle com.parse.tagteampi:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme com.parse.tagteampi:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme com.parse.tagteampi:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle com.parse.tagteampi:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle com.parse.tagteampi:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance com.parse.tagteampi:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor com.parse.tagteampi:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground com.parse.tagteampi:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle com.parse.tagteampi:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable com.parse.tagteampi:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable com.parse.tagteampi:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable com.parse.tagteampi:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable com.parse.tagteampi:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable com.parse.tagteampi:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle com.parse.tagteampi:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable com.parse.tagteampi:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable com.parse.tagteampi:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground com.parse.tagteampi:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle com.parse.tagteampi:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable com.parse.tagteampi:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle com.parse.tagteampi:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle com.parse.tagteampi:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle com.parse.tagteampi:activityChooserViewStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.parse.anywall:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle com.parse.anywall:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent com.parse.anywall:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal com.parse.anywall:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated com.parse.anywall:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight com.parse.anywall:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal com.parse.anywall:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary com.parse.anywall:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark com.parse.anywall:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.parse.anywall:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal com.parse.anywall:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical com.parse.anywall:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle com.parse.anywall:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.parse.anywall:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground com.parse.anywall:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor com.parse.anywall:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator com.parse.anywall:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.parse.anywall:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle com.parse.anywall:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight com.parse.anywall:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.parse.anywall:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.parse.anywall:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.parse.anywall:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.parse.anywall:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground com.parse.anywall:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme com.parse.anywall:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth com.parse.anywall:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle com.parse.anywall:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle com.parse.anywall:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle com.parse.anywall:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground com.parse.anywall:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.parse.anywall:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.parse.anywall:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle com.parse.anywall:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle com.parse.anywall:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.parse.anywall:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem com.parse.anywall:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.parse.anywall:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.parse.anywall:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.parse.anywall:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.parse.anywall:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl com.parse.anywall:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.parse.anywall:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle com.parse.anywall:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar com.parse.anywall:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay com.parse.anywall:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay com.parse.anywall:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.parse.anywall:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.parse.anywall:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.parse.anywall:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.parse.anywall:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle com.parse.tagteampi:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle com.parse.tagteampi:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent com.parse.tagteampi:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal com.parse.tagteampi:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated com.parse.tagteampi:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight com.parse.tagteampi:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal com.parse.tagteampi:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary com.parse.tagteampi:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark com.parse.tagteampi:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal com.parse.tagteampi:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal com.parse.tagteampi:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical com.parse.tagteampi:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle com.parse.tagteampi:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight com.parse.tagteampi:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground com.parse.tagteampi:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor com.parse.tagteampi:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator com.parse.tagteampi:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator com.parse.tagteampi:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle com.parse.tagteampi:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight com.parse.tagteampi:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge com.parse.tagteampi:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall com.parse.tagteampi:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft com.parse.tagteampi:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight com.parse.tagteampi:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground com.parse.tagteampi:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme com.parse.tagteampi:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth com.parse.tagteampi:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle com.parse.tagteampi:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle com.parse.tagteampi:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle com.parse.tagteampi:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground com.parse.tagteampi:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless com.parse.tagteampi:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle com.parse.tagteampi:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle com.parse.tagteampi:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle com.parse.tagteampi:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu com.parse.tagteampi:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem com.parse.tagteampi:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall com.parse.tagteampi:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle com.parse.tagteampi:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle com.parse.tagteampi:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu com.parse.tagteampi:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl com.parse.tagteampi:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle com.parse.tagteampi:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle com.parse.tagteampi:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar com.parse.tagteampi:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay com.parse.tagteampi:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay com.parse.tagteampi:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor com.parse.tagteampi:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor com.parse.tagteampi:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor com.parse.tagteampi:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor com.parse.tagteampi:windowFixedWidthMinor}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -4457,37 +4544,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100a8, 0x7f0100a9, 0x7f0100aa
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionBarDivider
+          @attr name com.parse.tagteampi:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 19;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionBarItemBackground
+          @attr name com.parse.tagteampi:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 20;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionBarPopupTheme
+          @attr name com.parse.tagteampi:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 13;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4507,111 +4594,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:actionBarSize
+          @attr name com.parse.tagteampi:actionBarSize
         */
         public static final int Theme_actionBarSize = 18;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionBarSplitStyle
+          @attr name com.parse.tagteampi:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionBarStyle
+          @attr name com.parse.tagteampi:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionBarTabBarStyle
+          @attr name com.parse.tagteampi:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 9;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionBarTabStyle
+          @attr name com.parse.tagteampi:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 8;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionBarTabTextStyle
+          @attr name com.parse.tagteampi:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 10;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionBarTheme
+          @attr name com.parse.tagteampi:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 16;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionBarWidgetTheme
+          @attr name com.parse.tagteampi:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionButtonStyle
+          @attr name com.parse.tagteampi:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 43;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionDropDownStyle
+          @attr name com.parse.tagteampi:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 38;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionMenuTextAppearance
+          @attr name com.parse.tagteampi:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 21;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4619,167 +4706,167 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.parse.anywall:actionMenuTextColor
+          @attr name com.parse.tagteampi:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 22;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeBackground
+          @attr name com.parse.tagteampi:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 25;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeCloseButtonStyle
+          @attr name com.parse.tagteampi:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 24;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeCloseDrawable
+          @attr name com.parse.tagteampi:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 27;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeCopyDrawable
+          @attr name com.parse.tagteampi:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 29;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeCutDrawable
+          @attr name com.parse.tagteampi:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 28;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeFindDrawable
+          @attr name com.parse.tagteampi:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModePasteDrawable
+          @attr name com.parse.tagteampi:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 30;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModePopupWindowStyle
+          @attr name com.parse.tagteampi:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 35;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeSelectAllDrawable
+          @attr name com.parse.tagteampi:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeShareDrawable
+          @attr name com.parse.tagteampi:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeSplitBackground
+          @attr name com.parse.tagteampi:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 26;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeStyle
+          @attr name com.parse.tagteampi:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 23;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionModeWebSearchDrawable
+          @attr name com.parse.tagteampi:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionOverflowButtonStyle
+          @attr name com.parse.tagteampi:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 11;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:actionOverflowMenuStyle
+          @attr name com.parse.tagteampi:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:activityChooserViewStyle
+          @attr name com.parse.tagteampi:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 50;
         /**
@@ -4789,27 +4876,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:buttonBarButtonStyle
+          @attr name com.parse.tagteampi:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:buttonBarStyle
+          @attr name com.parse.tagteampi:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 44;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4820,11 +4907,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:colorAccent
+          @attr name com.parse.tagteampi:colorAccent
         */
         public static final int Theme_colorAccent = 77;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4835,11 +4922,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:colorButtonNormal
+          @attr name com.parse.tagteampi:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 81;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4850,11 +4937,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:colorControlActivated
+          @attr name com.parse.tagteampi:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 79;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4865,11 +4952,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:colorControlHighlight
+          @attr name com.parse.tagteampi:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 80;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4880,11 +4967,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:colorControlNormal
+          @attr name com.parse.tagteampi:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 78;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4895,11 +4982,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:colorPrimary
+          @attr name com.parse.tagteampi:colorPrimary
         */
         public static final int Theme_colorPrimary = 75;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4910,11 +4997,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:colorPrimaryDark
+          @attr name com.parse.tagteampi:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 76;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4925,41 +5012,41 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:colorSwitchThumbNormal
+          @attr name com.parse.tagteampi:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 82;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:dividerHorizontal
+          @attr name com.parse.tagteampi:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 49;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:dividerVertical
+          @attr name com.parse.tagteampi:dividerVertical
         */
         public static final int Theme_dividerVertical = 48;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:dropDownListViewStyle
+          @attr name com.parse.tagteampi:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4971,21 +5058,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:dropdownListPreferredItemHeight
+          @attr name com.parse.tagteampi:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 39;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:editTextBackground
+          @attr name com.parse.tagteampi:editTextBackground
         */
         public static final int Theme_editTextBackground = 56;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4993,41 +5080,41 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.parse.anywall:editTextColor
+          @attr name com.parse.tagteampi:editTextColor
         */
         public static final int Theme_editTextColor = 55;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:homeAsUpIndicator
+          @attr name com.parse.tagteampi:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 42;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:listChoiceBackgroundIndicator
+          @attr name com.parse.tagteampi:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 74;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:listPopupWindowStyle
+          @attr name com.parse.tagteampi:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5039,11 +5126,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:listPreferredItemHeight
+          @attr name com.parse.tagteampi:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 62;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5055,11 +5142,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:listPreferredItemHeightLarge
+          @attr name com.parse.tagteampi:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 64;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5071,11 +5158,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:listPreferredItemHeightSmall
+          @attr name com.parse.tagteampi:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 63;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5087,11 +5174,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:listPreferredItemPaddingLeft
+          @attr name com.parse.tagteampi:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 65;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5103,31 +5190,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:listPreferredItemPaddingRight
+          @attr name com.parse.tagteampi:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 66;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:panelBackground
+          @attr name com.parse.tagteampi:panelBackground
         */
         public static final int Theme_panelBackground = 71;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:panelMenuListTheme
+          @attr name com.parse.tagteampi:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 73;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5139,151 +5226,151 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:panelMenuListWidth
+          @attr name com.parse.tagteampi:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 72;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:popupMenuStyle
+          @attr name com.parse.tagteampi:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 53;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:popupWindowStyle
+          @attr name com.parse.tagteampi:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:searchViewStyle
+          @attr name com.parse.tagteampi:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:selectableItemBackground
+          @attr name com.parse.tagteampi:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 46;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:selectableItemBackgroundBorderless
+          @attr name com.parse.tagteampi:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 47;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:spinnerDropDownItemStyle
+          @attr name com.parse.tagteampi:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 41;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:spinnerStyle
+          @attr name com.parse.tagteampi:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 40;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:switchStyle
+          @attr name com.parse.tagteampi:switchStyle
         */
         public static final int Theme_switchStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:textAppearanceLargePopupMenu
+          @attr name com.parse.tagteampi:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 36;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:textAppearanceListItem
+          @attr name com.parse.tagteampi:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 69;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:textAppearanceListItemSmall
+          @attr name com.parse.tagteampi:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:textAppearanceSearchResultSubtitle
+          @attr name com.parse.tagteampi:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:textAppearanceSearchResultTitle
+          @attr name com.parse.tagteampi:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:textAppearanceSmallPopupMenu
+          @attr name com.parse.tagteampi:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 37;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5291,31 +5378,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.parse.anywall:textColorSearchUrl
+          @attr name com.parse.tagteampi:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 60;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:toolbarNavigationButtonStyle
+          @attr name com.parse.tagteampi:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:toolbarStyle
+          @attr name com.parse.tagteampi:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5325,11 +5412,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:windowActionBar
+          @attr name com.parse.tagteampi:windowActionBar
         */
         public static final int Theme_windowActionBar = 1;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5339,11 +5426,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:windowActionBarOverlay
+          @attr name com.parse.tagteampi:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 2;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5353,11 +5440,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:windowActionModeOverlay
+          @attr name com.parse.tagteampi:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 3;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5372,11 +5459,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:windowFixedHeightMajor
+          @attr name com.parse.tagteampi:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5391,11 +5478,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:windowFixedHeightMinor
+          @attr name com.parse.tagteampi:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 5;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5410,11 +5497,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:windowFixedWidthMajor
+          @attr name com.parse.tagteampi:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -5429,7 +5516,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:windowFixedWidthMinor
+          @attr name com.parse.tagteampi:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 6;
         /** Attributes that can be used with a Toolbar.
@@ -5440,26 +5527,26 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity com.parse.anywall:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.parse.anywall:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.parse.anywall:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.parse.anywall:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.parse.anywall:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.parse.anywall:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.parse.anywall:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.parse.anywall:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.parse.anywall:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.parse.anywall:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.parse.anywall:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.parse.anywall:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_theme com.parse.anywall:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.parse.anywall:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.parse.anywall:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.parse.anywall:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.parse.anywall:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.parse.anywall:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.parse.anywall:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.parse.anywall:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity com.parse.tagteampi:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.parse.tagteampi:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.parse.tagteampi:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.parse.tagteampi:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.parse.tagteampi:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.parse.tagteampi:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.parse.tagteampi:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.parse.tagteampi:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.parse.tagteampi:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.parse.tagteampi:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.parse.tagteampi:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.parse.tagteampi:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_theme com.parse.tagteampi:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.parse.tagteampi:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.parse.tagteampi:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.parse.tagteampi:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.parse.tagteampi:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.parse.tagteampi:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.parse.tagteampi:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.parse.tagteampi:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -5505,7 +5592,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5518,21 +5605,21 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:buttonGravity
+          @attr name com.parse.tagteampi:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 18;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:collapseIcon
+          @attr name com.parse.tagteampi:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 19;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5544,11 +5631,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:contentInsetEnd
+          @attr name com.parse.tagteampi:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5560,11 +5647,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:contentInsetLeft
+          @attr name com.parse.tagteampi:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5576,11 +5663,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:contentInsetRight
+          @attr name com.parse.tagteampi:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5592,11 +5679,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:contentInsetStart
+          @attr name com.parse.tagteampi:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5608,11 +5695,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:maxButtonHeight
+          @attr name com.parse.tagteampi:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5622,31 +5709,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:navigationContentDescription
+          @attr name com.parse.tagteampi:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:navigationIcon
+          @attr name com.parse.tagteampi:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:popupTheme
+          @attr name com.parse.tagteampi:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5656,31 +5743,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:subtitle
+          @attr name com.parse.tagteampi:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:subtitleTextAppearance
+          @attr name com.parse.tagteampi:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#theme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:theme
+          @attr name com.parse.tagteampi:theme
         */
         public static final int Toolbar_theme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#title}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5690,11 +5777,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:title
+          @attr name com.parse.tagteampi:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5706,11 +5793,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:titleMarginBottom
+          @attr name com.parse.tagteampi:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5722,11 +5809,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:titleMarginEnd
+          @attr name com.parse.tagteampi:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5738,11 +5825,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:titleMarginStart
+          @attr name com.parse.tagteampi:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5754,11 +5841,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:titleMarginTop
+          @attr name com.parse.tagteampi:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5770,17 +5857,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:titleMargins
+          @attr name com.parse.tagteampi:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:titleTextAppearance
+          @attr name com.parse.tagteampi:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -5790,8 +5877,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.parse.anywall:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.parse.anywall:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.parse.tagteampi:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.parse.tagteampi:paddingStart}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
@@ -5807,7 +5894,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_focusable = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5819,11 +5906,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:paddingEnd
+          @attr name com.parse.tagteampi:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5835,7 +5922,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:paddingStart
+          @attr name com.parse.tagteampi:paddingStart
         */
         public static final int View_paddingStart = 1;
         /** Attributes that can be used with a ViewStubCompat.
@@ -5879,10 +5966,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.parse.anywall:appTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment com.parse.anywall:environment}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.parse.anywall:fragmentMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.parse.anywall:fragmentStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.parse.tagteampi:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment com.parse.tagteampi:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.parse.tagteampi:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.parse.tagteampi:fragmentStyle}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentOptions_appTheme
            @see #WalletFragmentOptions_environment
@@ -5893,7 +5980,7 @@ containing a value of this type.
             0x7f0100ba, 0x7f0100bb, 0x7f0100bc, 0x7f0100bd
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#appTheme}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#appTheme}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -5906,11 +5993,11 @@ containing a value of this type.
 <tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:appTheme
+          @attr name com.parse.tagteampi:appTheme
         */
         public static final int WalletFragmentOptions_appTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#environment}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#environment}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -5924,11 +6011,11 @@ containing a value of this type.
 <tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:environment
+          @attr name com.parse.tagteampi:environment
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#fragmentMode}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#fragmentMode}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
@@ -5941,17 +6028,17 @@ containing a value of this type.
 <tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:fragmentMode
+          @attr name com.parse.tagteampi:fragmentMode
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#fragmentStyle}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#fragmentStyle}
           attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:fragmentStyle
+          @attr name com.parse.tagteampi:fragmentStyle
         */
         public static final int WalletFragmentOptions_fragmentStyle = 2;
         /** Attributes that can be used with a WalletFragmentStyle.
@@ -5960,17 +6047,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.parse.anywall:buyButtonAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.parse.anywall:buyButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.parse.anywall:buyButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.parse.anywall:buyButtonWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.parse.anywall:maskedWalletDetailsBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.parse.anywall:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.parse.anywall:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.parse.anywall:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.parse.anywall:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.parse.anywall:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.parse.anywall:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.parse.tagteampi:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.parse.tagteampi:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.parse.tagteampi:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.parse.tagteampi:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.parse.tagteampi:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.parse.tagteampi:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.parse.tagteampi:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.parse.tagteampi:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.parse.tagteampi:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.parse.tagteampi:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.parse.tagteampi:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -5990,7 +6077,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100c6, 0x7f0100c7, 0x7f0100c8
         };
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#buyButtonAppearance}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#buyButtonAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6004,11 +6091,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:buyButtonAppearance
+          @attr name com.parse.tagteampi:buyButtonAppearance
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#buyButtonHeight}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#buyButtonHeight}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6029,11 +6116,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:buyButtonHeight
+          @attr name com.parse.tagteampi:buyButtonHeight
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#buyButtonText}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#buyButtonText}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6047,11 +6134,11 @@ containing a value of this type.
 <tr><td><code>buy_now</code></td><td>2</td><td></td></tr>
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:buyButtonText
+          @attr name com.parse.tagteampi:buyButtonText
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#buyButtonWidth}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#buyButtonWidth}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6072,11 +6159,11 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:buyButtonWidth
+          @attr name com.parse.tagteampi:buyButtonWidth
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#maskedWalletDetailsBackground}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#maskedWalletDetailsBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6084,11 +6171,11 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.parse.anywall:maskedWalletDetailsBackground
+          @attr name com.parse.tagteampi:maskedWalletDetailsBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#maskedWalletDetailsButtonBackground}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#maskedWalletDetailsButtonBackground}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6096,31 +6183,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.parse.anywall:maskedWalletDetailsButtonBackground
+          @attr name com.parse.tagteampi:maskedWalletDetailsButtonBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#maskedWalletDetailsButtonTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#maskedWalletDetailsButtonTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:maskedWalletDetailsButtonTextAppearance
+          @attr name com.parse.tagteampi:maskedWalletDetailsButtonTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#maskedWalletDetailsHeaderTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:maskedWalletDetailsHeaderTextAppearance
+          @attr name com.parse.tagteampi:maskedWalletDetailsHeaderTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#maskedWalletDetailsLogoImageType}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#maskedWalletDetailsLogoImageType}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6133,11 +6220,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>classic</code></td><td>1</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.parse.anywall:maskedWalletDetailsLogoImageType
+          @attr name com.parse.tagteampi:maskedWalletDetailsLogoImageType
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#maskedWalletDetailsLogoTextColor}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#maskedWalletDetailsLogoTextColor}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
@@ -6148,17 +6235,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.parse.anywall:maskedWalletDetailsLogoTextColor
+          @attr name com.parse.tagteampi:maskedWalletDetailsLogoTextColor
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.parse.anywall.R.attr#maskedWalletDetailsTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.tagteampi.R.attr#maskedWalletDetailsTextAppearance}
           attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.parse.anywall:maskedWalletDetailsTextAppearance
+          @attr name com.parse.tagteampi:maskedWalletDetailsTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
     };

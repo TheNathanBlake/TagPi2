@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.parse.anywall"
-    android:versionCode="1"
+    package="com.parse.tagteampi"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="14"
         android:targetSdkVersion="21" />
 
     <permission
@@ -22,6 +21,7 @@
      The following permission is not required to use
      Google Maps Android API v2, but is recommended.
     -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-feature
@@ -35,13 +35,17 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.parse.tagteampi.MainActivity"
+            android:name="com.parse.tagteampi.InGameActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.parse.tagteampi.SuspensionActivity"
+            android:label="@string/activity_suspension_title"
+            android:theme="@android:style/Theme.Dialog" />
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="YOUR_GOOGLE_ANDROID_MAPS_V2_API_KEY" />
+            android:value="AIzaSyBGzXocUG6KNWu0Ec-aFyS3X7F4hvL5PIc" />
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -49,11 +53,21 @@
         <activity
             android:name="com.parse.tagteampi.LoginActivity"
             android:label="@string/title_activity_login"
-            android:screenOrientation="portrait" />
+            android:parentActivityName="com.parse.tagteampi.WelcomeActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WelcomeActivity" />
+        </activity>
         <activity
             android:name="com.parse.tagteampi.SignUpActivity"
             android:label="@string/title_activity_signup"
-            android:screenOrientation="portrait" />
+            android:parentActivityName="com.parse.tagteampi.WelcomeActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WelcomeActivity" />
+        </activity>
         <activity
             android:name="com.parse.tagteampi.DispatchActivity"
             android:noHistory="true" >
@@ -66,15 +80,33 @@
         <activity
             android:name="com.parse.tagteampi.WelcomeActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Holo" />
-        <activity
-            android:name="com.parse.tagteampi.PostActivity"
-            android:label="@string/activity_post_title"
-            android:windowSoftInputMode="adjustResize" />
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.parse.tagteampi.SettingsActivity"
             android:label="@string/title_activity_settings" />
+        <activity
+            android:name="com.parse.tagteampi.GameSettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="com.parse.tagteampi.MainLobbyActivity"
+            android:label="@string/app_name" />
+        <!-- HEAD -->
+        <activity
+            android:name="com.parse.tagteampi.LobbyActivity"
+            android:label="@string/app_name" />
+
+        <!-- Old activities, only there for reference -->
+        <!-- <activity -->
+        <!-- android:name=".InGameActivity" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:screenOrientation="portrait" /> -->
+
+
+        <!-- <activity -->
+        <!-- android:name="com.parse.tagteampi.PostActivity" -->
+        <!-- android:label="@string/activity_post_title" -->
+        <!-- android:windowSoftInputMode="adjustResize" /> -->
+
     </application>
 
 </manifest>
